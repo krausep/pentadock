@@ -17,5 +17,6 @@ namespace Pentadock.DataAccess
         public DbSet<Kiddo> Kiddos { get; set; }
         public DbSet<WeeklyAllowance> WeeklyAllowances { get; set; }
         public DbSet<WeeklyStatus> WeeklyStatuses { get; set; }
+
     }
 }

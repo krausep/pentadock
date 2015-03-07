@@ -249,6 +249,16 @@
     <Content Include="packages.config" />
     <None Include="Project_Readme.html" />
   </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\Pentadock.DataAccess\Pentadock.DataAccess.csproj">
+      <Project>{3c067294-8c22-4058-9c3a-7afa2a49577a}</Project>
+      <Name>Pentadock.DataAccess</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\Pentadock.Models\Pentadock.Models.csproj">
+      <Project>{cb8f1304-835c-4cc3-bc7d-df0b3c74f904}</Project>
+      <Name>Pentadock.Models</Name>
+    </ProjectReference>
+  </ItemGroup>
   <PropertyGroup>
     <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>
     <VSToolsPath Condition="'$(VSToolsPath)' == ''">$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)</VSToolsPath>
